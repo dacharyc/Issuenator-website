@@ -1,0 +1,11 @@
+# Language configuration
+
+[en]
+  languageCode = "en"
+  languageName = "English"
+  weight = 1
+  title = "Issuenator"
+
+  [en.params]
+    displayName = "EN"
+    isoCode = "en"

@@ -1,0 +1,65 @@
+# Congo Theme Parameters
+# Documentation: https://jpanther.github.io/congo/docs/configuration/
+
+# Color scheme - using "congo" which provides a nice teal/green accent
+# Options: congo, avocado, cherry, fire, ocean, sapphire, slate, etc.
+colorScheme = "congo"
+
+# Default appearance - auto respects system preference
+defaultAppearance = "auto"
+autoSwitchAppearance = true
+
+# Enable search
+enableSearch = true
+enableCodeCopy = true
+
+# Main layout settings
+[homepage]
+  layout = "custom"
+  homepageImage = ""
+  showRecent = false
+
+[article]
+  showDate = false
+  showDateUpdated = false
+  showAuthor = false
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = false
+  showTableOfContents = true
+  showTaxonomies = false
+  showWordCount = false
+  sharingLinks = []
+
+[list]
+  showBreadcrumbs = false
+  showSummary = false
+  showTableOfContents = false
+  groupByYear = false
+
+[sitemap]
+  excludedKinds = []
+
+[taxonomy]
+  showTermCount = true
+
+# Header configuration
+[header]
+  layout = "basic"
+  logo = ""
+  logoDark = ""
+  showTitle = true
+
+# Footer configuration
+[footer]
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+# Verification and analytics (configure when ready)
+# [verification]
+#   google = ""

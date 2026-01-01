@@ -1,0 +1,27 @@
+# Navigation menus
+
+[[main]]
+  name = "Features"
+  pageRef = "features"
+  weight = 10
+
+[[main]]
+  name = "Docs"
+  pageRef = "docs"
+  weight = 20
+
+[[main]]
+  name = "Support"
+  pageRef = "support"
+  weight = 30
+
+# Footer menu
+[[footer]]
+  name = "Privacy"
+  pageRef = "privacy"
+  weight = 10
+
+[[footer]]
+  name = "Support"
+  pageRef = "support"
+  weight = 20
