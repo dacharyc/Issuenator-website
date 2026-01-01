@@ -22,6 +22,7 @@ Fine-grained tokens offer more precise control over permissions and repository a
 | Issues | Read-only | Fetch issue data |
 | Metadata | Read-only | Repository information |
 | Pull requests | Read-only | Linked PR information |
+| Profile | Read and write | Username and avatar for profile and to find "my" issues |
 
 **Repository Access:**
 
@@ -37,8 +38,8 @@ Classic tokens use broader OAuth scopes.
 
 | Scope | Purpose |
 |-------|---------|
-| `repo` | Full access (required for private repos) |
-| `public_repo` | Public repos only (if you only track public repos) |
+| `repo` | Read permissions for any repository you want to watch |
+| `user` | Username and avatar for profile and to find "my" issues |
 
 ## Creating Your Token
 
@@ -91,7 +92,7 @@ If you set an expiration date:
 ### Missing Private Repositories
 
 - Fine-grained tokens: Add the repository to "Selected repositories"
-- Classic tokens: Ensure `repo` scope is enabled (not just `public_repo`)
+- Classic tokens: Ensure `repo` scope is enabled
 
 ### SAML SSO Organizations
 
