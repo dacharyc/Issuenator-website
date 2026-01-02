@@ -1,0 +1,21 @@
+{{/* Contact form shortcode for Issuenator */}}
+{{/* Usage: {{< contact-form formspree_id="your-form-id" >}} */}}
+
+{{ $formspree_id := .Get "formspree_id" }}
+
+<form class="contact-form" action="https://formspree.io/f/{{ $formspree_id }}" method="post" accept-charset="utf-8">
+  <div class="form-field">
+    <label for="full-name">Your Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required>
+  </div>
+  <div class="form-field">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="your@email.here" required>
+  </div>
+  <div class="form-field">
+    <label for="message">Message</label>
+    <textarea rows="6" name="message" id="message" placeholder="How can we help?" required></textarea>
+  </div>
+  <input type="hidden" name="_subject" id="email-subject" value="Issuenator Contact Form Submission" />
+  <button type="submit" class="submit-button">Send Message</button>
+</form>

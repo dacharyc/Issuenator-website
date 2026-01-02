@@ -39,3 +39,7 @@ For other inquiries, you can reach the developer:
 
 - Mastodon: [@dacharyc](https://hachyderm.io/@dacharyc)
 - Website: [dacharycarey.com](https://dacharycarey.com)
+
+Or send a message using the form below:
+
+{{< contact-form formspree_id="mwvpbwyg" >}}

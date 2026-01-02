@@ -1,0 +1,4 @@
+#!/bin/sh
+
+hugo --minify
+rsync -avz public/ issuenator.app:issuenator.app/
