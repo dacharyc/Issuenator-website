@@ -25,3 +25,38 @@
   name = "Support"
   pageRef = "support"
   weight = 20
+
+[[footer]]
+  name = "Mastodon"
+  url = "https://corporaterunaways.social/@issuenator"
+  weight = 30
+  [footer.params]
+    icon = "mastodon"
+    showName = false
+    target = "_blank"
+
+[[footer]]
+  name = "GitHub"
+  url = "https://github.com/dacharyc/issuenator-website"
+  weight = 40
+  [footer.params]
+    icon = "github"
+    showName = false
+    target = "_blank"
+
+[[footer]]
+  name = "Email"
+  url = "https://issuenator.app/support/"
+  weight = 50
+  [footer.params]
+    icon = "email"
+    showName = false
+
+[[footer]]
+  name = "Developer's Website"
+  url = "https://dacharycarey.com"
+  weight = 60
+  [footer.params]
+    icon = "globe"
+    showName = false
+    target = "_blank"

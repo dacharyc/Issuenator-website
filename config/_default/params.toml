@@ -49,8 +49,8 @@ enableCodeCopy = true
 # Header configuration
 [header]
   layout = "basic"
-  logo = ""
-  logoDark = ""
+  logo = "logo.png"
+  logoDark = "logo.png"
   showTitle = true
 
 # Footer configuration
