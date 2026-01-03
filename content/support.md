@@ -27,7 +27,7 @@ Make sure your GitHub token has access to the repository. For fine-grained token
 
 **How often does Issuenator fetch new issues?**
 
-By default, Issuenator fetches issues every 15 minutes. You can adjust this in Settings, either globally or per-repository.
+By default, Issuenator fetches issues hourly. You can adjust this in Settings to fetch several times per hour, several times per day, or daily—either globally or per-repository.
 
 **Where is my data stored?**
 

@@ -15,14 +15,19 @@ GitHub offers two types of personal access tokens:
 
 Fine-grained tokens offer more precise control over permissions and repository access.
 
-**Required Permissions:**
+**Required Repository Permissions:**
 
 | Permission | Access Level | Purpose |
 |------------|--------------|---------|
 | Issues | Read-only | Fetch issue data |
 | Metadata | Read-only | Repository information |
 | Pull requests | Read-only | Linked PR information |
-| Profile | Read and write | Username and avatar for profile and to find "my" issues |
+
+**Required Account Permissions:**
+
+| Permission | Access Level | Purpose |
+|------------|--------------|---------|
+| Profile | Read and write | Username and avatar to identify your issues |
 
 **Repository Access:**
 
@@ -50,9 +55,10 @@ Classic tokens use broader OAuth scopes.
 3. Set a name: "Issuenator"
 4. Set expiration (recommended: 90 days or custom)
 5. Choose repository access
-6. Set permissions (Issues, Metadata, Pull requests: Read-only)
-7. Click **Generate token**
-8. **Copy the token immediately** - you won't see it again
+6. Under **Repository permissions**, set Issues, Metadata, and Pull requests to Read-only
+7. Under **Account permissions**, set Profile to read and write
+8. Click **Generate token**
+9. **Copy the token immediately** - you won't see it again
 
 ### Classic Token
 
@@ -60,7 +66,7 @@ Classic tokens use broader OAuth scopes.
 2. Click **Generate new token (classic)**
 3. Set a name: "Issuenator"
 4. Set expiration
-5. Check `repo` (or `public_repo` for public repos only)
+5. Check `repo` and `user` scopes
 6. Click **Generate token**
 7. **Copy the token immediately**
 

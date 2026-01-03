@@ -67,3 +67,11 @@ Every dashboard supports:
 - **Filter chips** showing active filters with one-click removal
 
 Sort preferences are saved per-dashboard.
+
+### Search
+
+Press **Cmd+F** to focus the search field and find issues by title or body text.
+
+**Search Scope**
+
+By default, search filters the current dashboard. Toggle the scope button to search across all issues in all dashboards—useful when you're not sure where an issue landed.

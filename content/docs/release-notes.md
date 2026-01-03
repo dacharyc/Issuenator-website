@@ -18,6 +18,8 @@ Initial release of Issuenator.
 - **Issue Detail View**: Full metadata, linked PRs, comments with reactions
 - **Custom Tags**: Private, local-only tags with 8 color options
 - **Automatic Filters**: Rule-based issue categorization
-- **Background Sync**: Configurable automatic fetching
+- **Bulk Operations**: Select multiple issues and act on them at once
+- **Background Sync**: Configurable automatic fetching (hourly by default)
 - **Per-Repository Settings**: Custom names, colors, and behavior overrides
-- **Keyboard Shortcuts**: Full keyboard navigation support
+- **Keyboard Shortcuts**: Full keyboard navigation including Cmd+1-8 for dashboards
+- **Native macOS**: Built with SwiftUI for optimal performance and accessibility

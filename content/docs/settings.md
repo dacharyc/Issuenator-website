@@ -35,7 +35,12 @@ How long after an issue closes before it moves to Archived. Different dashboards
 
 How often Issuenator automatically fetches new issues from GitHub.
 
-**Options:** 15 minutes, 1 hour, 4 hours, Daily, Manual only
+| Option | Description |
+|--------|-------------|
+| Several times per hour | Most frequent updates |
+| **Hourly** (default) | Balanced freshness and API usage |
+| Several times per day | Reduced API calls |
+| Daily | Minimal API usage |
 
 ### Display Options
 
@@ -79,14 +84,64 @@ The new token is validated before saving. Your old token is replaced in Keychain
 
 ## Keyboard Shortcuts
 
+### Navigation
+
+| Shortcut | Action |
+|----------|--------|
+| Cmd+1 | Go to Inbox |
+| Cmd+2 | Go to Watching |
+| Cmd+3 | Go to My Issues |
+| Cmd+4 | Go to Assigned |
+| Cmd+5 | Go to Inactive |
+| Cmd+6 | Go to Ignored |
+| Cmd+7 | Go to Tagged |
+| Cmd+8 | Go to Archived |
+| Cmd+F | Focus Search |
+
+### Issues
+
+| Shortcut | Action |
+|----------|--------|
+| Cmd+B | Toggle Bulk Operations |
+| T | Apply Tags to Selected Issue |
+| Cmd+Ctrl+W | Watch an Issue by URL |
+
+### Repositories
+
+| Shortcut | Action |
+|----------|--------|
+| Cmd+Ctrl+A | Add Repository |
+| Cmd+Ctrl+M | Manage Repositories |
+
+### Tags
+
+| Shortcut | Action |
+|----------|--------|
+| Cmd+Ctrl+T | Create Tag |
+| Cmd+Ctrl+G | Manage Tags |
+
+### Filters
+
+| Shortcut | Action |
+|----------|--------|
+| Ctrl+F | Create Filter |
+| Ctrl+M | Manage Filters |
+
+### App
+
 | Shortcut | Action |
 |----------|--------|
 | Cmd+, | Open Settings |
 | Cmd+K | Manage API Key |
-| Cmd+Ctrl+A | Add Repository |
-| Cmd+Ctrl+M | Manage Repositories |
-| Cmd+Ctrl+W | Watch an Issue by URL |
-| Cmd+Ctrl+T | Manage Tags |
-| Cmd+Ctrl+G | Apply Tag to Issue |
-| Ctrl+F | Create Filter |
-| Ctrl+M | Manage Filters |
+| Cmd+L | View Logs |
+| Cmd+D | View Documentation |
+
+## Activity Logs
+
+Issuenator keeps a log of app activity during each session—useful for troubleshooting or understanding what happened during a fetch.
+
+**Viewing Logs**
+- Press Cmd+L or choose Logs → View Logs
+- Logs show fetch operations, errors, and app events
+- Logs are kept in memory only and cleared when you quit the app
+- You can export logs to a file for support requests
