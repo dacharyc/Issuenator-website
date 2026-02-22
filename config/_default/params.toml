@@ -60,6 +60,12 @@ enableCodeCopy = true
   showAppearanceSwitcher = true
   showScrollToTop = true
 
+[author]
+  name = "Issuenator"
+  links = [
+    { mastodon = "https://corporaterunaways.social/@issuenator" },
+  ]
+
 # Verification and analytics (configure when ready)
 # [verification]
 #   google = ""
