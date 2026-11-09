@@ -68,6 +68,19 @@ Set up rules to categorize incoming issues:
 - Combine multiple conditions with Any/All/None logic
 - Rules apply automatically when issues are fetched
 
+### Bring your favorite agent
+
+Share your issue context with your favorite agent. You can have your agent read GitHub, but it doesn't know what you care about. That info lives in Issuenator; your applied local-only tags, what you've chosen to ignore, and what you've already seen.
+
+Enable the Agent Server to let your preferred agent use MCP tools to help you manage your issues:
+
+- **Catch up faster**: your agent can summarize new unread activity for you
+- **Plan around your priorities**: your agent can see your local-only tags and flags related to issue priority, and you can collaborate around what to work on next
+- **Spend less time on triage**: let your agent apply tags, flag important issues, or propose filters for patterns it spots
+- **Hand off the admin**: tell your agent to watch repositories or issues you care about
+
+Agent Server is off by default, or read-only if you want to share your context with agents without letting them make changes. In write mode, destructive changes wait for your approval, and you can decide whether to apply or revert smaller changes that your agent makes.
+
 ### Bulk Operations
 
 When you need to process many issues at once, bulk operations mode lets you work efficiently.

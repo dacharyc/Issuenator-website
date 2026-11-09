@@ -94,3 +94,4 @@ Colors are automatically assigned to each repository. Issuenator will validate e
 - Learn about the different [Dashboards](../dashboards/) and how to use them
 - Set up [Filters & Tags](../filters-tags/) to organize issues automatically
 - Customize [Settings](../settings/) to match your workflow
+- Enable the [Agent Server](../agent-server/) to let your favorite agent help you triage

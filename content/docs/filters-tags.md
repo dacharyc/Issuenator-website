@@ -34,6 +34,14 @@ Tags are your personal organization system. Unlike GitHub labels, tags:
 
 The **Tagged** dashboard shows all tagged issues across repositories. Use the filter to view specific tags.
 
+### Agent Tag Activity
+
+If you have the Agent Server enabled:
+
+- In read-only mode, agents can view and filter by tags
+- In write mode, agents can apply tags and propose new ones
+- You can always choose whether to apply or revert agent tag activity either on the issue directly or in the **Agent Actions** view
+
 ---
 
 ## Automatic Filters
@@ -46,6 +54,16 @@ Automatic filters categorize incoming issues based on rules you define. When iss
 2. Click **New Filter**
 3. Define your conditions and action
 4. Click Save
+
+A filter you create is automatically activated on save and will automatically apply to new issues fetched after the filter was created.
+
+### Agent-Proposed Filters
+
+If you have the **Agent Server** enabled, agents can propose filters. You'll see an `Agent` label next to agent-proposed filters, and these filters are automatically paused until you approve them.
+
+- Press the `Play` button to start applying the filter from the next time you fetch issues
+- You can edit the filter to change details about how it works, just like a filter you create yourself
+- If you delete an agent-proposed filter, Issuenator counts it as `reverted` and the agent will be unable to propose the same filter again
 
 ### Filter Conditions
 

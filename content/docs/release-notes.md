@@ -18,6 +18,7 @@ Initial release of Issuenator.
 - **Issue Detail View**: Full metadata, linked PRs, comments with reactions
 - **Custom Tags**: Private, local-only tags with 8 color options
 - **Automatic Filters**: Rule-based issue categorization
+- **Agent Server**: Start a local server and let your favorite agent use MCP tools to help you triage
 - **Bulk Operations**: Select multiple issues and act on them at once
 - **Background Sync**: Configurable automatic fetching (hourly by default)
 - **Per-Repository Settings**: Custom names, colors, and behavior overrides

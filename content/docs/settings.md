@@ -48,6 +48,18 @@ How often Issuenator automatically fetches new issues from GitHub.
 - Configure issue card information density
 - Label display preferences
 
+### Agent Server
+
+Choose whether to enable the Agent Server, and if yes, what permissions it should have.
+
+- Enable or disable the server (disabled by default)
+- Specify a port
+- Check server status
+- Permit agent writes (otherwise agents can only read or trigger issue fetch)
+- Change approval timeout
+- Regenerate the authentication token
+- Test the connection to the server
+
 ## Per-Repository Settings
 
 Override global settings for individual repositories:
@@ -138,10 +150,19 @@ The new token is validated before saving. Your old token is replaced in Keychain
 
 ## Activity Logs
 
-Issuenator keeps a log of app activity during each session—useful for troubleshooting or understanding what happened during a fetch.
+Issuenator keeps a log of app activity during each session, which can be useful for troubleshooting or understanding what happened during a fetch.
 
 **Viewing Logs**
 - Press Cmd+L or choose Logs → View Logs
 - Logs show fetch operations, errors, and app events
 - Logs are kept in memory only and cleared when you quit the app
 - You can export logs to a file for support requests
+- If you have the Agent Server enabled, you can also filter log activity to see `Agent` activity
+
+**Agent Actions**
+
+If the Agent Server is enabled, you can view a log of activities your agent has performed.
+
+- Choose Logs → Agent Actions
+- Choose whether to Accept or Revert changes, or Approve or Deny proposed destructive actions
+- Export actions as a CSV if you need to keep a record for compliance
